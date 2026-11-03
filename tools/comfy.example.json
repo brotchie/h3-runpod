@@ -1,0 +1,11 @@
+{
+  "host": "",
+  "ssh_port": 22,
+  "ssh_user": "root",
+  "key": "~/.ssh/id_ed25519",
+  "local_port": 8188,
+  "remote_port": 8188,
+  "pod": "",
+  "queue_local_port": 8189,
+  "queue_remote_port": 8189
+}

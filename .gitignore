@@ -1,0 +1,8 @@
+.env
+tools/comfy.json
+renders/
+work/
+__pycache__/
+.venv/
+tools/.venv/
+.DS_Store

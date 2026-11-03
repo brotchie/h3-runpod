@@ -1,0 +1,12 @@
+{
+  "image": "runpod/pytorch:2.8.0-py3.11-cuda12.8.1-cudnn-devel-ubuntu22.04",
+  "comfyui": "0dbfd493b4cc604db743c699f0f7ce01348e54a4",
+  "torch_index": "https://download.pytorch.org/whl/cu130",
+  "models": [
+    {"repo": "Comfy-Org/MiniMax-H3", "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48", "path": "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors", "folder": "text_encoders"},
+    {"repo": "Comfy-Org/MiniMax-H3", "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48", "path": "vae/minimax_h3_video_vae_int8_convrot.safetensors", "folder": "vae"},
+    {"repo": "Comfy-Org/MiniMax-H3", "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48", "path": "vae/minimax_h3_audio_vae_fp32.safetensors", "folder": "vae"},
+    {"repo": "Comfy-Org/MiniMax-H3", "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48", "path": "loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors", "folder": "loras"},
+    {"repo": "WarmBloodAban/Minimax-h3_Singularity", "revision": "1259cf16cd0b655ba691a32fb46a409142762972", "path": "Minimax-h3_Singularity_ref2va_v2_pruned_int8.safetensors", "folder": "diffusion_models"}
+  ]
+}
